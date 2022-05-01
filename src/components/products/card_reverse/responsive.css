@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+  .card-reversed {
+    width: 85%;
+    grid-template-columns: none;
+    grid-template-rows: 0.3fr 1fr;
+    align-items: baseline;
+  }
+}

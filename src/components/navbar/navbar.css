@@ -1,0 +1,40 @@
+:root {
+  --fs-medium: clamp(0.1rem, 0.2vw + 1rem, 4rem);
+}
+
+#navbar {
+  display: grid;
+  grid-template-columns: 0.08fr 0.24fr;
+  justify-content: space-between;
+  height: clamp(2.5rem, 7vh + 1rem, 11rem);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(137, 218, 22);
+}
+
+#navbar-items {
+  display: grid;
+  grid-template-columns: 0.08fr 0.08fr;
+  gap: clamp(0.1rem, 2vw + 1rem, 4rem);
+  font-weight: bold;
+  font-size: var(--fs-medium);
+  margin: auto;
+  list-style-type: none;
+}
+
+.nav-item:hover {
+  transition: 0.1s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#logo {
+  width: 90px;
+  height: auto;
+  cursor: pointer;
+}
+
+a {
+  margin: auto;
+}

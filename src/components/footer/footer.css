@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 49, 49);
+  height: clamp(2rem, 2vw + 1rem, 5rem);
+}
+
+#footer-txt {
+  color: whitesmoke;
+  font-size: clamp(0.9rem, 0.1vw + 1rem, 6rem);
+  font-weight: bolder;
+}
+
+#gh-a {
+  display: flex;
+  margin: 0;
+  width: clamp(4rem, 4.5vw + 1rem, 6rem);
+  justify-content: center;
+  align-items: center;
+}
+
+#gh-img {
+  height: auto;
+  width: 40%;
+}
+
+#gh-img:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.1);
+}

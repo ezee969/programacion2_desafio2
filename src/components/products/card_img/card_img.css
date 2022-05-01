@@ -1,0 +1,9 @@
+.prod-img {
+  width: clamp(10rem, 60% + 1rem, 17rem);
+  height: auto;
+}
+
+.img-cont {
+  display: flex;
+  justify-content: center;
+}

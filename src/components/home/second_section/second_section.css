@@ -1,0 +1,18 @@
+#second-section-cont {
+  display: flex;
+  min-height: 65vh;
+  width: 100%;
+  padding: clamp(1rem, 2vw + 1rem, 10rem);
+  padding-top: 4rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  background-image: url('../../../utils/imgs/curve.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#second-section-cont > * {
+  box-sizing: border-box;
+}

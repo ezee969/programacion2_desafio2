@@ -1,0 +1,11 @@
+.card {
+  display: grid;
+  width: 68%;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  margin: auto;
+}
+
+.shorter {
+  width: 60%;
+}

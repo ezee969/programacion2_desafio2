@@ -1,0 +1,10 @@
+#first-section-cont {
+  display: flex;
+  height: 70vh;
+  padding: 20px;
+}
+#first-section-text {
+  margin: auto;
+  font-size: clamp(1.4rem, 0.8vw + 1rem, 4rem);
+  color: rgb(41, 41, 41);
+}

@@ -1,0 +1,6 @@
+.h2-cardtext {
+  font-size: clamp(1.3rem, 0.6vw + 1rem, 3rem);
+}
+.p-cardtext {
+  font-size: clamp(1rem, 0.1vw + 1rem, 2.5rem);
+}

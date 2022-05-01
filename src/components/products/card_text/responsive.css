@@ -1,0 +1,7 @@
+@media (max-width: 700px) {
+  :root {
+    --fs-600: 0.6vw + 1rem;
+    --fs-400: 0.2vw + 1rem;
+    text-align: center;
+  }
+}

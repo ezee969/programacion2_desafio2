@@ -1,0 +1,12 @@
+#products-container-show {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  min-height: 85.8vh;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+#products-container-hide {
+  opacity: 0;
+}

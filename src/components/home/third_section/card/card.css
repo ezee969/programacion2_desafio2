@@ -1,0 +1,65 @@
+/* -----------------------Base card style---------------------- */
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-cont {
+  display: flex;
+  align-items: center;
+  flex: 1 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 2vmin;
+}
+
+p {
+  font-size: 1.5vmin;
+}
+
+/* -----------------------+Animated card style---------------------- */
+.animated-card-cont {
+  height: 100%;
+  width: 11%;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated-card-img-cont {
+  height: 55vmin;
+  width: auto;
+}
+
+/* -----------------------+Person card style---------------------- */
+.person-card-cont {
+  border-radius: 2px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.h3-p-margin {
+  margin: 2.5% 0 2.5% 2%;
+}
+
+@media (max-width: 700px) {
+  /* --Base card style--*/
+  h3 {
+    font-size: 5vmin;
+    margin: 10px 0px 0px 0px;
+  }
+
+  p {
+    font-size: 4.3vmin;
+  }
+
+  /* --+Animated card style--*/
+  .animated-card-cont {
+    width: 70%;
+  }
+}

@@ -1,0 +1,12 @@
+@media (max-width: 800px) {
+  .card {
+    width: 85%;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 0.3fr;
+    align-items: baseline;
+  }
+
+  .shorter {
+    width: 80%;
+  }
+}

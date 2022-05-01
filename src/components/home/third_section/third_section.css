@@ -1,0 +1,61 @@
+#main-page-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  gap: 20px;
+  padding: 20px;
+}
+
+#animated-cards-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35%;
+  width: 90%;
+  gap: 18%;
+}
+
+hr {
+  border-top: 1px solid rgb(204, 204, 204);
+  margin: 2.5% 0 2.5% 0;
+  width: 83%;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 3.5vmin;
+}
+
+#person-cards-cont {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26%;
+  width: 75%;
+  gap: 0.8%;
+}
+
+@media (max-width: 700px) {
+  #main-page-cont {
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 6vmin;
+  }
+
+  #animated-cards-cont {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #person-cards-cont {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+}
