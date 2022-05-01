@@ -23,10 +23,10 @@ function RouteSwitch() {
         <Navbar />
         <Routes>
           <Route
-            path='/products'
+            path='programacion2_desafio2/products'
             element={<Products isDesktop={isDesktop} />}
           />
-          <Route path='/' element={<Home />} />
+          <Route path='programacion2_desafio2/' element={<Home />} />
         </Routes>
         <Footer />
       </div>
