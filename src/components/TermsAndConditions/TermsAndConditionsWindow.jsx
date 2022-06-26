@@ -30,11 +30,11 @@ export default function TermsAndConditionsWindow({ setShowTerms }) {
       animate='visible'
       exit='exit'
       onClick={(e) => e.stopPropagation()}
-      className='flex flex-col gap-5 p-4 rounded bg-gray-50'
+      className='flex flex-col w-5/6 max-w-xl gap-5 p-4 rounded bg-gray-50'
     >
       <p className='text-lg font-medium'>Our terms and conditions</p>
       <textarea
-        className='prose'
+        className='p-1 prose border rounded md:text-justify'
         value='
         1. This template legal document was produced and published by SEQ Legal
         LLP. 
@@ -69,12 +69,11 @@ export default function TermsAndConditionsWindow({ setShowTerms }) {
         of a legal document produced from this template) using this form:
         http://www.seqlegal.com/request-quote.'
         disabled
-        cols='60'
-        rows='20'
+        rows='17'
       />
       <button
         onClick={() => setShowTerms(false)}
-        className='py-2 text-lg font-medium text-white bg-blue-500 rounded cursor-pointer hover:bg-blue-600 active:bg-blue-500'
+        className='px-10 py-2 text-lg font-medium text-white bg-blue-500 rounded cursor-pointer md:self-center md:max-w-fit hover:bg-blue-600 active:bg-blue-500'
       >
         I accept
       </button>

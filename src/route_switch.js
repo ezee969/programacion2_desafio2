@@ -39,7 +39,7 @@ function RouteSwitch() {
           {showTerms && <TermsAndConditions setShowTerms={setShowTerms} />}
         </AnimatePresence>
         <Routes>
-          <Route path={`/`} element={showTerms ? null : <Home />} />
+          <Route path={`${baseUrl}`} element={showTerms ? null : <Home />} />
           <Route path={`${baseUrl}/faq`} element={<Faq />} />
           <Route
             path={`${baseUrl}/products`}
