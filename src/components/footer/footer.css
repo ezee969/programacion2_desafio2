@@ -3,7 +3,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: rgb(49, 49, 49);
-  height: clamp(2rem, 2vw + 1rem, 5rem);
+  padding: 0.4rem 0px 0.4rem 0px;
 }
 
 #footer-txt {

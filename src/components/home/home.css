@@ -1,8 +1,0 @@
-#hide-home {
-  opacity: 0;
-}
-
-#show-home {
-  opacity: 1;
-  transition: opacity 0.5s;
-}

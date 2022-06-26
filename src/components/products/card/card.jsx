@@ -6,7 +6,7 @@ import CardImg from '../card_img/card_img';
 
 const Card = ({ title, description, imgSrc, shorter }) => {
   return (
-    <div className={`card fadeIn ${shorter ? 'shorter' : '  '}`}>
+    <div className='p-4 border rounded shadow card'>
       <CardImg src={imgSrc} />
       <CardText title={title} description={description} />
     </div>

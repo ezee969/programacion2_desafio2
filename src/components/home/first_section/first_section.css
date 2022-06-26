@@ -5,6 +5,6 @@
 }
 #first-section-text {
   margin: auto;
-  font-size: clamp(1.4rem, 0.8vw + 1rem, 4rem);
+  font-size: clamp(1.4rem, 1vw + 1rem, 4rem);
   color: rgb(41, 41, 41);
 }

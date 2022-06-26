@@ -6,7 +6,7 @@ import CardImg from '../card_img/card_img';
 
 const CardReverse = ({ title, description, imgSrc, isDesktop }) => {
   return (
-    <div className='card-reversed fadeIn'>
+    <div className='p-4 card-reversed'>
       {!isDesktop && <CardImg src={imgSrc} />}
       <CardText title={title} description={description} />
       {isDesktop && <CardImg src={imgSrc} />}

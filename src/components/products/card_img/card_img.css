@@ -1,5 +1,5 @@
 .prod-img {
-  width: clamp(10rem, 60% + 1rem, 17rem);
+  width: clamp(10rem, 55% + 1rem, 17rem);
   height: auto;
 }
 

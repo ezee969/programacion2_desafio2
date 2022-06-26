@@ -18,10 +18,8 @@ const AnimatedCard = (props) => {
       >
         <img alt={props.alt} src={props.img} />
       </div>
-      <h3 className={props.cardType === 'person' && 'h3-p-margin'}>
-        {props.title}
-      </h3>
-      <p className={props.cardType === 'person' && 'h3-p-margin'}>
+      <h3 className=''>{props.title}</h3>
+      <p className={props.cardType === 'person' ? 'h3-p-margin' : null}>
         Miles de productos hay en el mercado, pero nada como una caja con
         gatitos
       </p>
