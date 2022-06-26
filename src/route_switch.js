@@ -39,16 +39,13 @@ function RouteSwitch() {
           {showTerms && <TermsAndConditions setShowTerms={setShowTerms} />}
         </AnimatePresence>
         <Routes>
+          <Route path={`/`} element={showTerms ? null : <Home />} />
+          <Route path={`${baseUrl}/faq`} element={<Faq />} />
           <Route
-            path='/programacion2_desafio2/products'
+            path={`${baseUrl}/products`}
             element={<Products isDesktop={isDesktop} />}
           />
-          <Route
-            path='/programacion2_desafio2/'
-            element={showTerms ? null : <Home />}
-          />
-          <Route path={`${baseUrl}/faq`} element={<Faq />} />
-          <Route path='/programacion2_desafio2/sucess' element={<Sucess />} />
+          <Route path={`${baseUrl}/success`} element={<Sucess />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
