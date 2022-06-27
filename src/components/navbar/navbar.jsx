@@ -24,6 +24,9 @@ export default function Navbar() {
         <Link to={'programacion2_desafio2/success'}>
           <li>Success</li>
         </Link>
+        <Link to={'programacion2_desafio2/notfound'}>
+          <li>404</li>
+        </Link>
       </ul>
     </nav>
   );

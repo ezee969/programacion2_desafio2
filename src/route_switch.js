@@ -46,7 +46,7 @@ function RouteSwitch() {
             element={<Products isDesktop={isDesktop} />}
           />
           <Route path={`${baseUrl}/success`} element={<Sucess />} />
-          <Route path='*' element={<NotFound />} />
+          <Route path={`${baseUrl}/notfound`} element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
