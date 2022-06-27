@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/programacion2_desafio2/static/css/main.22ec8f48.css",
-    "main.js": "/programacion2_desafio2/static/js/main.be61f9eb.js",
+    "main.css": "/programacion2_desafio2/static/css/main.7456302d.css",
+    "main.js": "/programacion2_desafio2/static/js/main.ab922184.js",
     "static/media/success-bg.jpg": "/programacion2_desafio2/static/media/success-bg.f5be907ec3a1d8a3d713.jpg",
     "static/media/home-bg.png": "/programacion2_desafio2/static/media/home-bg.aa0c3ec79c2c425d9eb7.png",
     "static/media/b3.png": "/programacion2_desafio2/static/media/b3.9526056c85a2116ca0f2.png",
@@ -20,11 +20,11 @@
     "static/media/logo.png": "/programacion2_desafio2/static/media/logo.46d7c82e0733036e27f2.png",
     "static/media/curve.png": "/programacion2_desafio2/static/media/curve.9890d7e6730b1210fd76.png",
     "index.html": "/programacion2_desafio2/index.html",
-    "main.22ec8f48.css.map": "/programacion2_desafio2/static/css/main.22ec8f48.css.map",
-    "main.be61f9eb.js.map": "/programacion2_desafio2/static/js/main.be61f9eb.js.map"
+    "main.7456302d.css.map": "/programacion2_desafio2/static/css/main.7456302d.css.map",
+    "main.ab922184.js.map": "/programacion2_desafio2/static/js/main.ab922184.js.map"
   },
   "entrypoints": [
-    "static/css/main.22ec8f48.css",
-    "static/js/main.be61f9eb.js"
+    "static/css/main.7456302d.css",
+    "static/js/main.ab922184.js"
   ]
 }
