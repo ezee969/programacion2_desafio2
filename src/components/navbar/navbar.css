@@ -19,22 +19,6 @@
   }
 }
 
-#navbar-items {
-  display: grid;
-  grid-template-columns: 0.08fr 0.08fr;
-  gap: clamp(0.1rem, 2vw + 1rem, 4rem);
-  font-weight: bold;
-  font-size: var(--fs-medium);
-  margin: auto;
-  list-style-type: none;
-}
-
-.nav-item:hover {
-  transition: 0.1s;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
 #logo {
   width: clamp(2rem, 70% + 1rem, 4rem);
   height: auto;

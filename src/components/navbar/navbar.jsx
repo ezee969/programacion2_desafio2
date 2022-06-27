@@ -14,12 +14,15 @@ export default function Navbar() {
           alt='website logo'
         />
       </Link>
-      <ul id='navbar-items'>
+      <ul className='flex gap-2 font-semibold lg:text-lg xl:text-xl'>
         <Link to={'programacion2_desafio2/faq'}>
-          <li className='nav-item'>FAQ</li>
+          <li>FAQ</li>
         </Link>
         <Link to={'programacion2_desafio2/products'}>
-          <li className='nav-item'>Products</li>
+          <li>Products</li>
+        </Link>
+        <Link to={'programacion2_desafio2/success'}>
+          <li>Success</li>
         </Link>
       </ul>
     </nav>
